@@ -3,5 +3,7 @@ name: CI Java
 on: [push]
 
 jobs: 
+
   call-pipeline:
-    uses: Devops-Fundamentos-v5/devops-pipeline/.github/workflows/main.yml@feature-pipeline
+
+    uses: KrlosAren/devops-pipeline/.github/workflows/main.yml@main
